@@ -1,0 +1,13 @@
+.movieList {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 100%;
+  gap: 10px 5px;
+}
+
+.movieTitle {
+  padding-top: 14px;
+  padding-left: 14px;
+}

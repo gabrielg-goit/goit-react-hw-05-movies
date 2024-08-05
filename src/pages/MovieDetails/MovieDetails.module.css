@@ -1,0 +1,99 @@
+.movie {
+  display: flex;
+}
+
+.details {
+  display: flex;
+}
+
+.description {
+  display: block;
+  margin-left: 14px;
+  padding-top: 20px;
+}
+
+.backButton {
+  max-width: 100px;
+  padding: 4px;
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: rgb(59, 180, 202);
+  box-shadow: rgba(34, 60, 80, 0.2) 1px 2px 5px 0px;
+  border: none;
+  margin-top: 14px;
+}
+
+.backButton:hover {
+  background-color: rgb(0, 4, 255);
+  color: white;
+}
+
+.reviews:hover,
+.cast:hover {
+  background-color: rgb(0, 4, 255);
+  color: white;
+}
+.link {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  color: rgb(0, 4, 255);
+}
+
+.link.active {
+  color: white;
+}
+
+.nav {
+  padding: 8px 0px;
+  margin: 8px 0px;
+  display: flex;
+  gap: 16px;
+  border-top: 2px solid rgb(194, 194, 194);
+  border-bottom: 2px solid rgb(194, 194, 194);
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.userScore {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.overviewTitle {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.overview {
+  font-size: 16px;
+  line-height: 1.4;
+  color: #555;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+.genresTitle {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.genre {
+  font-size: 16px;
+  line-height: 1.4;
+  color: #555;
+}

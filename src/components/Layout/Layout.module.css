@@ -1,0 +1,21 @@
+.nav {
+  background-color: rgb(16, 78, 140);
+  padding: 10px 0;
+  text-align: start;
+}
+
+.navLink {
+  text-decoration: none;
+  color: white;
+  margin: 0 10px;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+.navLink:hover {
+  color: rgb(0, 68, 255);
+}
+
+.navLink.active {
+  color: rgb(0, 68, 255);
+}
